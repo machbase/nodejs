@@ -9,7 +9,7 @@ if (!jinst.isJvmCreated()) {
 
 var config = {
     url :'jdbc:machbase://localhost:5656/mhdb',
-    drivername: 'com.machbase.jdbc.driver',
+    drivername: 'com.machbase.jdbc.MachDriver',
     minpoolsize: 10,
     maxpoolsize: 100,
     user: 'SYS',
